@@ -28,6 +28,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell locklevel="0" id="{00e541f7-a9ef-4fff-83cb-8027f05709ea}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="dmi_priority" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="dmi_priority" uniqueid="{e20f3577-dedb-4a71-8633-862ba460699e}" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{12d5f3c0-8d33-4a6e-a6c9-0c313eb23ac5}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="" languagecode="1033" />
@@ -179,6 +187,28 @@
               <intent type="SingleLine.Text">dmi_intent</intent>
               <priority type="OptionSet">dmi_priority</priority>
               <actions type="SingleLine.Text">dmi_actions</actions>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{e20f3577-dedb-4a71-8633-862ba460699e}">
+          <customControl id="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}">
+            <parameters>
+              <datafieldname>dmi_priority</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="dmi_dmi.SignalPriorityBadge">
+            <parameters>
+              <priority type="OptionSet">dmi_priority</priority>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="dmi_dmi.SignalPriorityBadge">
+            <parameters>
+              <priority type="OptionSet">dmi_priority</priority>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="dmi_dmi.SignalPriorityBadge">
+            <parameters>
+              <priority type="OptionSet">dmi_priority</priority>
             </parameters>
           </customControl>
         </controlDescription>

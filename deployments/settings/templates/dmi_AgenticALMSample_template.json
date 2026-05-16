@@ -1,5 +1,18 @@
 {
-  "ConnectionReferences": [],
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "dmi_AzureOpenAIDeployment",
+      "Value": ""
+    },
+    {
+      "SchemaName": "dmi_AzureOpenAIEndpoint",
+      "Value": ""
+    },
+    {
+      "SchemaName": "dmi_FirstContactPromptTemplate",
+      "Value": ""
+    }
+  ],
   "Metadata": {
     "dmi_AzureOpenAIDeployment": {
       "displayName": "Azure OpenAI Deployment Name",
@@ -23,18 +36,5 @@
       "description": ""
     }
   },
-  "EnvironmentVariables": [
-    {
-      "SchemaName": "dmi_AzureOpenAIDeployment",
-      "Value": ""
-    },
-    {
-      "SchemaName": "dmi_AzureOpenAIEndpoint",
-      "Value": ""
-    },
-    {
-      "SchemaName": "dmi_FirstContactPromptTemplate",
-      "Value": ""
-    }
-  ]
+  "ConnectionReferences": []
 }
