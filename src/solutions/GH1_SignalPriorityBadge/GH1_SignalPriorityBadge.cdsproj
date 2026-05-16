@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="AlbanianXrm.CDSProj.Sdk/1.0.9">
+  <PropertyGroup>
+    <ProjectGuid>989a9d5d-8209-4de3-9cfa-d591c4ab5ed6</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <!--Remove TargetFramework when this is available in 16.1-->
+    <TargetFramework>net462</TargetFramework>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <SolutionRootPath>src</SolutionRootPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SolutionPackageType>Both</SolutionPackageType>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\controls\dmi_AgenticALMSample\PCF-SignalPriorityBadge\PCF-SignalPriorityBadge.pcfproj" />
+  </ItemGroup>
+
+</Project>
