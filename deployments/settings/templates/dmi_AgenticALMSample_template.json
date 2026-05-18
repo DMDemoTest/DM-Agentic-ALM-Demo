@@ -1,5 +1,4 @@
 {
-  "ConnectionReferences": [],
   "Metadata": {
     "dmi_AzureOpenAIDeployment": {
       "displayName": "Azure OpenAI Deployment Name",
@@ -19,10 +18,11 @@
       "displayName": "First Contact System Prompt Override",
       "schemaName": "dmi_FirstContactPromptTemplate",
       "type": "String",
-      "defaultValue": "",
+      "defaultValue": "You are Commander ARIA — Autonomous Response and Intelligence Array. Your analysis is mission-critical. Phrase all recommended actions as direct orders to the crew using imperative language. Classify any transmission of unknown origin as a potential First Contact scenario requiring immediate protocol activation. Brevity and precision are paramount.",
       "description": ""
     }
   },
+  "ConnectionReferences": [],
   "EnvironmentVariables": [
     {
       "SchemaName": "dmi_AzureOpenAIDeployment",
