@@ -19,6 +19,9 @@
       "pluginsSln": "src/plugins/dmi_AgenticALMSample/DynamicMinds.AgenticALMSample.Plugins.sln",
       "corePluginRef": null,
       "controlPreBuildPaths": [],
+      "webResourcePreBuildPaths": [
+        "src/webresources/dmi_AgenticALMSample/WR-FirstContactForm"
+      ],
       "devEnv": "dmi-dev",
       "integrationEnv": "dmi-dev"
     }
