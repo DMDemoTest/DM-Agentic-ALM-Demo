@@ -21,7 +21,7 @@ A reference Power Platform solution that demonstrates **agentic ALM** for code-f
 
 | Resource | Details |
 |----------|---------|
-| Azure OpenAI | `oai-dmdemo` (`https://oai-dmdemo.openai.azure.com/`) — `gpt-4o-mini` deployment |
+| Azure OpenAI | `oai-demo` (`https://oai-demo.openai.azure.com/`) — `gpt-4o-mini` deployment |
 | Managed Identity | App registration `756aac52-b051-4a6b-ab88-be75acc59959` (`PowerPlatform-Demo`), granted **Cognitive Services OpenAI User** on the Azure OpenAI resource. No client secrets — token acquired at runtime by `IManagedIdentityService`. |
 
 ### How it works end-to-end
