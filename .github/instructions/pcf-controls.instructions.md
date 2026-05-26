@@ -129,7 +129,7 @@ Externals prevent React and FluentUI from being bundled (provided by the platfor
 
 ## Critical Rules
 
-1. **PCF controls are NOT auto-tracked** — You must manually add them to your preferred solution in Dataverse
+1. **PCF controls are NOT auto-tracked** — `pact pcf push` uses a temporary solution to import the PCF control so the PCF doesn't land in the preferred solution. You must build the feature solution and deploy it to the environment.
 2. **`pac solution add-reference`** must be run once to wire the `.pcfproj` into the solution's `.cdsproj`
 3. **Managed-layer controls** (those existing only in managed layer on dev org) cannot be synced via `pac solution sync` — bundles must be extracted from a managed export
 4. **Namespace must match solution prefix**: use `solutionAreas[x].prefix` from `environment-config.json`
